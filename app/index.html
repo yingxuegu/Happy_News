@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="newsWebsite" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>My AngularJS App</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+
+    <!-- Custom styles for this template -->
+  <link href="jumbotron.css" rel="stylesheet">
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script src="bower_components/moment/moment.js"></script>
+  <script src="bower_components/angular-weather-directive/dist/angular-weather-directive.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="app.js"></script>
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container" ng-controller="ModalDemoCtrl">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+            data-target="#headerButton" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand" href="#">Home</a>
+          
+        </div>
+        <div id="headerButton" class="collapse navbar-collapse ">
+          <div class="topics">
+            <a class="navbar-brand" href="#">Economy</a>
+            <a class="navbar-brand" href="#">Entainment</a>
+            <a class="navbar-brand" href="#">Sports</a>
+            <a class="navbar-brand" href="#">Tech</a>
+          </div>
+          <div class = "login">
+                <button type="submit" class="btn btn-success  " ng-click="openLogin('sm')">Login</button>
+            </div>
+          <div class = "register">
+                <button type="submit" class="btn btn-success " ng-click="openSignUp('sm')">Sign up</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div>
+      <div class="jumbotron">
+      
+      <div ng-controller="AlertDemoCtrl">
+          <uib-alert ng-repeat="alert in alerts" type="{{alert.type}}" close="closeAlert($index)" dismiss-on-timeout = 3000>{{alert.msg}}</uib-alert>
+      </div>  
+
+
+        <div class="container">
+          <h1>I will do the best news website</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-8">  
+         <div ng-view></div> 
+        </div> 
+
+        <!-- Hot News -->
+        <div class="col-md-3 col-md-offset-1  blog-sidebar sidebar-boundary">
+          <div>
+            <uib-tabset active="active">
+                  <uib-tab index="0" heading="Today">Static content</uib-tab>
+                  <uib-tab index="1" heading="This Week">Static content1</uib-tab>
+                   <uib-tab index="2" heading="Months">Static content</uib-tab>
+            </uib-tabset>
+           
+          </div>
+
+          <!-- Weather -->
+          <todays-weather
+                location="Chicago, IL"
+                custom-size="100"
+                use-google-images="true">abc
+          </todays-weather>
+        </div> <!-- /row-->
+     </div><!-- /.blog-sidebar -->
+
+         
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2015 Company, Inc.</p>
+      </footer>
+    </div> <!-- /container -->
+  <!--[if lt IE 7]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+  <![endif]-->
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+
+  
+</body>
+</html>

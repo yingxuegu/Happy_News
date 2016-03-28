@@ -1,0 +1,21 @@
+<div class="col-md-12 news">
+    <div class="media">
+      <div class="media-left">
+        <a href="#">
+            <img class="media-object" src="img/roadaccident.jpg" alt="...">
+                </a>
+      </div>
+          <div class="media-body">
+           <h4 class="media-heading">{{i.title}}</h4>
+           <div><span class="author">Author: {{i.author}}</span><span class="time">{{i.time}}</span></div>   
+           <div> {{i.abstract}}
+           </div> 
+           <br>
+            <div class= "comment">300 comments</div> 
+
+            <button type="button" class="btn btn-default btn-sm btn-like" ng-click= "addLike(i)">
+              <span class="glyphicon glyphicon-heart" aria-hidden="true" ></span> {{i.like}} like
+            </button>
+          </div>
+      </div>
+</div>

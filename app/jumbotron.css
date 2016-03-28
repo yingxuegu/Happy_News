@@ -1,0 +1,78 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.news {
+	border: 2px solid #C0C0C0;
+	padding: 10px;x 
+}
+
+.vertical
+{
+   width: 21px;
+   height: 100%; /* or height in PX */
+} 
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+.time {
+	float: right;
+	color: red;
+	padding-left: 10px;
+}
+
+.author {
+	color: grey;
+}
+
+.comment {
+	color: blue;
+}
+
+.btn-like:hover {
+  background: green;
+}
+
+.sidebar-boundary {
+	border-left-style: solid;
+	height: 450px;
+	padding-left: 20px;
+	border-width: 2px;
+}
+
+.login {
+	margin: 10px;
+	margin-right: 10px;
+}
+
+.input-email {
+	width: 260px;
+	
+}
+
+.input-password {
+	width: 260px;
+}
+
+.login-button {
+	width: 300px;
+	margin-left: 30%;
+}
+
+pre {
+    width: 800px;
+    white-space:pre-wrap;
+    margin: 1em 0;
+    background-color: white;
+    border-color: white;
+    font-size: 12pt;
+} 
