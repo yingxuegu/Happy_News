@@ -5,7 +5,7 @@
 		"like": 10,
 		"dislike": 0,
 		"time": "12:56 PM ET",
-		"img": ""
+		"img": "img/Putin.jpg"
 	},
 
 	{"title": "Allies Say Obama’s Court Pick Will Be Hard to Ignore", 
@@ -14,7 +14,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "12:56 PM ET",
-		"img": ""
+		"img": "img/obama.jpeg"
 	},
 
 	{	
@@ -24,7 +24,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "12:47 PM ET, Sun March 27, 2016",
-		"img": "",
+		"img": "img/sanders.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -35,7 +35,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "6:51 PM ET, Fri March 25, 2016",
-		"img": "",
+		"img": "img/Trump.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -46,7 +46,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "6:46 PM ET, Sun March 27, 2016",
-		"img": "",
+		"img": "img/Trump1.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -57,7 +57,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 28, 2016",
-		"img": "",
+		"img": "img/Sanders1.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -68,7 +68,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "April 13, 2015",
-		"img": "",
+		"img": "img/Hillary.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -79,7 +79,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "5:21 PM ET, Fri March 25, 2016",
-		"img": "",
+		"img": "img/Cruze.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -90,7 +90,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "11:39 AM ET, Fri March 25, 2016",
-		"img": "",
+		"img": "img/Cruze1.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -101,7 +101,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Tue Mar. 1, 2016 10:11 PM EST",
-		"img": "",
+		"img": "img/Cruze2.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -112,7 +112,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 1, 2016",
-		"img": "",
+		"img": "img/Trump3.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -123,9 +123,10 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "10:52 PM ET, Sat February 27, 2016",
-		"img": "",
+		"img": "img/Hillary2.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
+
 
 	{	
 		"title": "Ivanka Trump Gives Birth To Son Theodore James", 
@@ -134,18 +135,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": " MARCH 27, 2016, 9:46 PM EDT",
-		"img": "",
-		"content": "Washington (CNN)Vermont Sen."
-	},
-
-	{	
-		"title": "Ivanka Trump Gives Birth To Son Theodore James", 
-		"author": "People",
-		"abstract": "Ivanka Trump has started down a new trail: Being a mom of three!",
-		"like": 1,
-		"dislike": 0,
-		"time": " MARCH 27, 2016, 9:46 PM EDT",
-		"img": "",
+		"img": "img/Trump4.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -156,7 +146,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "10:14 AM ET, Thu March 24, 2016",
-		"img": "",
+		"img": "img/superman.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -168,7 +158,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "1:10 PM ET, Sun March 27, 2016",
-		"img": "",
+		"img": "img/cuba.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -180,7 +170,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "12:29 PM ET, Mon February 29, 2016",
-		"img": "",
+		"img": "img/oscar.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -191,7 +181,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 28, 2016 3:58pm",
-		"img": "",
+		"img": "img/zootopia.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -202,7 +192,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": " March 26, 2016 4:24pm",
-		"img": "",
+		"img": "img/gameofthrone.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -213,7 +203,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 27, 2016",
-		"img": "",
+		"img": "img/griffin.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -224,7 +214,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 27, 2016",
-		"img": "",
+		"img": "img/stone.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -235,7 +225,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 26, 2016",
-		"img": "",
+		"img": "img/oregon.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -246,20 +236,10 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 26, 2016",
-		"img": "",
+		"img": "img/cubs.jpg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
-	{	
-		"title": "The 10 greatest international tournaments in the history of football", 
-		"author": "MIGUEL DELANEY",
-		"abstract": "With the European Championship and Copa America set to kick off in little more than two months, Miguel Delaney looks back at the 10 greatest international tournaments in football history.",
-		"like": 1,
-		"dislike": 0,
-		"time": "Mar 27, 2016",
-		"img": "",
-		"content": "Washington (CNN)Vermont Sen."
-	},
 
 	{	
 		"title": "Kane and Aduriz shine on international break; kit suppliers should be ashamed", 
@@ -268,7 +248,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 27, 2016",
-		"img": "",
+		"img": "img/kane.png",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -279,7 +259,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 27, 2016",
-		"img": "",
+		"img": "img/tony.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -290,7 +270,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "Mar 28, 2016",
-		"img": "",
+		"img": "img/cano.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -301,7 +281,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 22, 2016: 12:30 PM ET",
-		"img": "",
+		"img": "img/facebook.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -313,7 +293,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 24, 2016: 2:46 PM ET",
-		"img": "",
+		"img": "img/microsoft.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -324,7 +304,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 23, 2016: 5:20 PM ET",
-		"img": "",
+		"img": "img/investor.png",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -335,7 +315,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 22, 2016: 2:14 PM ET",
-		"img": "",
+		"img": "img/apple.jpg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -346,7 +326,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 21, 2016: 10:56 AM ET",
-		"img": "",
+		"img": "img/twitter.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
@@ -357,7 +337,7 @@
 		"like": 1,
 		"dislike": 0,
 		"time": "March 8, 2016: 9:25 AM ET",
-		"img": "",
+		"img": "img/s7.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	}
 

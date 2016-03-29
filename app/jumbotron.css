@@ -76,3 +76,10 @@ pre {
     border-color: white;
     font-size: 12pt;
 } 
+
+.content_list {
+	height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 184px;
+}

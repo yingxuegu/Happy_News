@@ -16,6 +16,9 @@ nw.config(['$routeProvider', '$locationProvider',
         templateUrl: 'partials/newsList.html',
         controller: 'wholeInformationCtrl',
         controllerAs: 'whole'
+      }).
+       otherwise({
+        redirectTo: '/'
       });
 }]);
 
