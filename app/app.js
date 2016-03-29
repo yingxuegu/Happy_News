@@ -19,25 +19,13 @@ nw.config(['$routeProvider', '$locationProvider',
       });
 }]);
 
-nw.controller('wholeInformationCtrl', ['$scope',function($scope) {
+nw.controller('wholeInformationCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.goal = "I will do the best news website";
-	$scope.news = [
-		{"title": "Putin’s Surprise Syria Move Keeps Everyone Guessing", 
-		"author": "NEIL MacFARQUHAR",
-		"abstract": "President Vladimir V. Putin’s typically theatrical order to withdraw the bulk of Russian forces from Syria seemingly caught Washington, Damascus and everybody in between off guard.",
-		"like": 10,
-		"dislike": 0,
-		"time": "12:56 PM ET"
-		},
 
-		{"title": "Allies Say Obama’s Court Pick Will Be Hard to Ignore", 
-		"author": " JULIE HIRSCHFELD DAVIS",
-		"abstract": "President Obama’s decision is based purely on qualifications, White House officials insisted, though other allies cited political considerations.",
-		"like": 1,
-		"dislike": 0,
-		"time": "12:56 PM ET"
-		},
-	];
+  $http.get('data/content.json').success(function(data) {
+    $scope.news = data;
+  });
+	
 	$scope.addLike = function(news) {
 		news.like++;
 	};
