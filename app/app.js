@@ -2,8 +2,6 @@
 
 // Declare app level module which depends on views, and components
 var nw = angular.module('newsWebsite', ['ui.bootstrap', "weatherModule", "ngSanitize", "ngAnimate", "ngRoute"]);
-
-
 nw.config(['$routeProvider', '$locationProvider',
   function($routeProvider) {
     $routeProvider
@@ -12,15 +10,26 @@ nw.config(['$routeProvider', '$locationProvider',
         controller: 'wholeInformationCtrl',
         controllerAs: 'whole'
       })
+      .when('/content/:id', {
+        templateUrl: 'partials/newsContent.html',
+        controller: 'NewsDetailCtrl',
+        controllerAs: 'newsDetail'
+      })
       .when('/', {
         templateUrl: 'partials/newsList.html',
         controller: 'wholeInformationCtrl',
         controllerAs: 'whole'
-      }).
-       otherwise({
-        redirectTo: '/'
       });
 }]);
+
+
+nw.controller('NewsDetailCtrl', ['$scope', '$routeParams', '$http',
+  function($scope, $routeParams, $http) {
+    $http.get('data/content.json').success(function(data) {
+      var id = parseInt($routeParams.id);
+      $scope.news = data[id];
+    });
+  }]);
 
 nw.controller('wholeInformationCtrl', ['$scope', '$http', function($scope, $http) {
 	$scope.goal = "I will do the best news website";

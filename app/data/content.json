@@ -1,5 +1,7 @@
 [
-	{"title": "Putin’s Surprise Syria Move Keeps Everyone Guessing", 
+	{
+		"id": 0,
+		"title": "Putin’s Surprise Syria Move Keeps Everyone Guessing", 
 		"author": "NEIL MacFARQUHAR",
 		"abstract": "President Vladimir V. Putin’s typically theatrical order to withdraw the bulk of Russian forces from Syria seemingly caught Washington, Damascus and everybody in between off guard.",
 		"like": 10,
@@ -8,7 +10,9 @@
 		"img": "img/Putin.jpg"
 	},
 
-	{"title": "Allies Say Obama’s Court Pick Will Be Hard to Ignore", 
+	{
+		"id": 1,
+		"title": "Allies Say Obama’s Court Pick Will Be Hard to Ignore", 
 		"author": " JULIE HIRSCHFELD DAVIS",
 		"abstract": "President Obama’s decision is based purely on qualifications, White House officials insisted, though other allies cited political considerations.",
 		"like": 1,
@@ -18,6 +22,7 @@
 	},
 
 	{	
+		"id": 2,
 		"title": "Bernie Sanders: 'I think we know who ISIS is'", 
 		"author": " Eric Bradner, CNN",
 		"abstract": "Vermont Sen. Bernie Sanders says the United States needs to toughen its surveillance to stop Brussels-style ISIS attacks, adding that 'we know who ISIS is.'",
@@ -29,6 +34,7 @@
 	},
 
 	{	
+		"id": 3,
 		"title": "Can Trump get to 1,237 delegates?", 
 		"author": "By Stephen Collinson and Eric Bradner",
 		"abstract": "Ted Cruz and John Kasich will need a political earthquake to slow Donald Trump.",
@@ -39,7 +45,8 @@
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
-	{	
+	{
+		"id": 4,	
 		"title": "Donald Trump's history of controversy with women", 
 		"author": "By Nia-Malika Henderson",
 		"abstract": "Tweet by tweet, Donald Trump could undermine the GOP's efforts to close the gender gap, a strategy that is critical to the party's hopes of retaking the White House in November.",
@@ -51,6 +58,7 @@
 	},
 
 	{	
+		"id": 5,
 		"title": "Sanders sweeps in Alaska, Hawaii, Washington, but too little too late?", 
 		"author": "FoxNews.com",
 		"abstract": "Sen. Bernie Sanders won nearly three dozen delegates more than Hillary Clinton Saturday in sweeping the Alaska, Washington and Hawaii Democratic presidential caucuses, but the strong, comeback victories failed to cut substantially into the front-runner's big lead.",
@@ -62,6 +70,7 @@
 	},
 
 	{	
+		"id": 6,
 		"title": "Why Hillary Clinton would make a good president — and maybe even a great one", 
 		"author": "Ryu Spaeth",
 		"abstract": "When Barack Obama took office in January of 2009, there was no end to the problems that needed fixing. Some 30 million Americans did not have health insurance. ",
@@ -73,6 +82,7 @@
 	},
 
 	{	
+		"id": 7,
 		"title": "Cruz blames Trump and his 'henchmen' for tabloid story", 
 		"author": "Jeremy Diamond, CNN",
 		"abstract": "Ted Cruz is accusing Donald Trump and his 'henchmen' of smearing him with a salacious tabloid story, which the Texas senator called 'garbage' and 'complete and utter lies.'",
@@ -84,6 +94,7 @@
 	},
 
 	{	
+		"id": 8,
 		"title": "Cruz on Trump's attacks on his wife: 'Leave Heidi the hell alone'", 
 		"author": "Theodore Schleifer, CNN",
 		"abstract": "An angry and emotional Ted Cruz on Thursday ripped into Donald Trump for his attacks on Cruz's wife, Heidi, and repeatedly declined to say whether he would support Trump if he's the Republican presidential nominee.",
@@ -95,6 +106,7 @@
 	},
 
 	{	
+		"id": 9,
 		"title": "Ted Cruz Pulls Off Wins in Texas and Oklahoma", 
 		"author": " Russ Choma",
 		"abstract": "Ted Cruz defied Donald Trump's rolling victory party, pulling off a win in his home state of Texas, networks are projecting now. The win was not totally unexpected, but it was crucial for Cruz, who desperately needed a victory in a Southern state. Cruz still trails Trump badly in the delegate count, but at least he was able to show that he could hold his own state against the Trump juggernaut.",
@@ -106,6 +118,7 @@
 	},
 
 	{	
+		"id": 10,
 		"title": "Donald Trump relishes his Super Tuesday wins: ‘I’m a unifier’", 
 		"author": "Greg Bluestein",
 		"abstract": "Republican Donald Trump and Democrat Hillary Clinton swept to victory Tuesday in Georgia’s primaries, in a show of strength over rivals who are competing to stave off their nominations. Read more about Trump’s victory here. Read more about Clinton’s victory here.",
@@ -117,6 +130,7 @@
 	},
 
 	{	
+		"id": 11,
 		"title": "Hillary Clinton: 'Tomorrow, this campaign goes national'", 
 		"author": "Stephen Collinson, CNN",
 		"abstract": "Hillary Clinton finally got her landslide -- and it could redefine the Democratic race for the White House.",
@@ -129,6 +143,7 @@
 
 
 	{	
+		"id": 12,
 		"title": "Ivanka Trump Gives Birth To Son Theodore James", 
 		"author": "People",
 		"abstract": "Ivanka Trump has started down a new trail: Being a mom of three!",
@@ -140,6 +155,7 @@
 	},
 
 	{	
+		"id": 13,
 		"title": "'Batman v Superman' ushers in summer movie season", 
 		"author": " Todd Leopold, CNN",
 		"abstract": "Batman v Superman: Dawn of Justice, which opens Friday, has all the hallmarks of a summer blockbuster. Comic book superheroes? Check. Overpowering CGI? Check. A monstrous budget -- estimated at $250 million -- that will require 'Avengers'- and 'Star Wars' -like box office grosses to avoid the taint of megabomb?",
@@ -152,6 +168,7 @@
 
 
 	{	
+		"id": 14,
 		"title": "Rolling Stones make history with free concert in Cuba", 
 		"author": "Patrick Oppmann, CNN",
 		"abstract": "On Friday, the Rolling Stones became the first major international rock band to play in Cuba, drawing hundreds of thousands of people to a free concert at a decrepit sports complex on the road to the airport.",
@@ -164,6 +181,7 @@
 
 
 	{	
+		"id": 15,
 		"title": "Oscar shines on 'Spotlight'", 
 		"author": "Todd Leopold, CNN",
 		"abstract": "'Spotlight' is basking in the golden glow of Oscar. 'Mad Max: Fury Road' may have won more honors at the 88th Academy Awards, leading all films with six. 'The Revenant' won some major prizes, including the first Oscar for actor Leonardo DiCaprio.",
@@ -175,6 +193,7 @@
 	},
 
 	{	
+		"id": 16,
 		"title": "‘Zootopia’ Nears $700M Global; ‘The Revenant’ Crosses $500M Globally – International Box Office Final'", 
 		"author": "Nancy Tartaglione",
 		"abstract": "4th UPDATE, WRITETHRU Monday 3:58 PM: Warner Bros’ Batman V Superman: Dawn Of Justice defied the critics and had a massive $254M international opening this weekend, making it the No. 5 biggest bow ever at overseas turnstiles, and the No. 4 globally with $424.1M. ",
@@ -186,6 +205,7 @@
 	},
 
 	{	
+		"id": 17,
 		"title": "‘Game Of Thrones’ March Madness Teaser: “We Deserve Death — We All Do”", 
 		"author": " Ross A. Lincoln",
 		"abstract": "4th UPDATE, WRITETHRU Monday 3:58 PM: Warner Bros’ Batman V Superman: Dawn Of Justice defied the critics and had a massive $254M international opening this weekend, making it the No. 5 biggest bow ever at overseas turnstiles, and the No. 4 globally with $424.1M. ",
@@ -196,7 +216,8 @@
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
-	{	
+	{
+		"id": 18,	
 		"title": "Clippers' Blake Griffin starts serving four-game suspension", 
 		"author": "Andrew Han ESPN Writer",
 		"abstract": "LOS ANGELES -- Los Angeles Clippers forward Blake Griffin is medically cleared for all basketball activities and started serving his four-game suspension with Sunday's 105-90 win against the Denver Nuggets.",
@@ -207,7 +228,8 @@
 		"content": "Washington (CNN)Vermont Sen."
 	},
 
-	{	
+	{
+		"id": 19,	
 		"title": "Healthy Stanton-Fernandez duo can help Marlins make a big splash", 
 		"author": "Jerry Crasnick ESPN Senior Writer",
 		"abstract": "JUPITER, Fla. -- Two elite players on a single MLB roster can do only so much to push a team over the top. If Zack Greinke and Paul Goldschmidt could pitch and slug the Arizona Diamondbacks to success the same way John Stockton and Karl Malone pick-and-rolled their way to the Hall of Fame with the NBA's Utah Jazz, season-ticket holders in Phoenix could already feel free to book hot tub reservations at Chase Field in October.",
@@ -219,6 +241,7 @@
 	},
 
 	{	
+		"id": 20,
 		"title": "Buddy system: Oregon can't solve Hield puzzle", 
 		"author": "JMyron Medcalf ESPN Staff Writer",
 		"abstract": "ANAHEIM, Calif. -- Just before Buddy Hield collected one of the first of his eight 3-pointers in his 37-point explosion during Oklahoma’s 80-68 victory over Oregon in the Elite Eight at the Honda Center on Saturday night, a Ducks fan in the front row screamed lies.",
@@ -230,6 +253,7 @@
 	},
 
 	{	
+		"id": 21,
 		"title": "Cubs game delayed when Jason Heyward swarmed, stung by bees", 
 		"author": "ESPN.com news services",
 		"abstract": "Chicago Cubs center fielder Jason Heyward was surrounded by a swarm of bees and stung multiple times during the top of the third inning at Sloan Park in Mesa, Arizona, halting the game with the Seattle Mariners for more than five minutes.",
@@ -242,6 +266,7 @@
 
 
 	{	
+		"id": 22,
 		"title": "Kane and Aduriz shine on international break; kit suppliers should be ashamed", 
 		"author": "IAIN MACINTOSH",
 		"abstract": "Iain Macintosh determines who deserves praise and punishment in the first week of the international break in this edition of Heroes and Villains.",
@@ -253,6 +278,7 @@
 	},
 
 	{	
+		"id": 23,
 		"title": "Sources: Badgers to name Tony Granato men's hockey coach", 
 		"author": "ESPN.com",
 		"abstract": "Wisconsin will name Detroit Red Wings assistant Tony Granato as its new head hockey coach, multiple sources tell ESPN's John Buccigross.",
@@ -264,6 +290,7 @@
 	},
 
 	{	
+		"id": 24,
 		"title": "Robinson Cano goes deep 3 times, has 7 RBIs in Cactus win", 
 		"author": "Associated Press",
 		"abstract": "MESA, Ariz. -- After Robinson Cano homered in each of his first two at-bats, Seattle Mariners manager Scott Servais heard a fan throw out a challenge",
@@ -275,6 +302,7 @@
 	},
 
 	{	
+		"id": 25,
 		"title": "Facebook activates Safety Check after Brussels attacks", 
 		"author": "David Goldman",
 		"abstract": "Facebook has activated its Safety Check feature, so people in Brussels can let loved ones know they're okay.",
@@ -287,6 +315,7 @@
 
 
 	{	
+		"id": 26,
 		"title": "After racist tweets, Microsoft muzzles teen chat bot Tay", 
 		"author": "Hope King",
 		"abstract": "Microsoft's public experiment with AI crashed and burned after less than a day.",
@@ -298,6 +327,7 @@
 	},
 
 	{	
+		"id": 27,
 		"title": "The top 100 tech investors are mostly white men", 
 		"author": "Sara Ashley O'Brien",
 		"abstract": "There are too few female investors and even fewer black ones. Period",
@@ -309,6 +339,7 @@
 	},
 
 	{	
+		"id": 28,
 		"title": "Apple's encryption fight is far from over", 
 		"author": "David Goldman",
 		"abstract": "Apple's closely watched fight with the FBI over a San Bernardino terrorist's iPhone may not take place after all. But the bigger battle is far from over.",
@@ -320,6 +351,7 @@
 	},
 
 	{	
+		"id": 29,
 		"title": "10 years later, Twitter still isn't close to making money", 
 		"author": "David Goldman",
 		"abstract": "Twitter has come a long way since the first tweet was sent 10 years ago Monday ('just setting up my twttr').",
@@ -331,6 +363,7 @@
 	},
 
 	{	
+		"id": 30,
 		"title": "Galaxy S7 Edge is as sexy as it is smart", 
 		"author": "Hope King",
 		"abstract": "Smartphones have become status symbols and statement makers -- much like luxury cars. The new Samsung Galaxy S7 Edge is a good example of this idea.",
@@ -340,32 +373,4 @@
 		"img": "img/s7.jpeg",
 		"content": "Washington (CNN)Vermont Sen."
 	}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ]
